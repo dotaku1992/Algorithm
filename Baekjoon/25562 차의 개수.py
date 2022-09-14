@@ -1,0 +1,5 @@
+N = int(input())
+print(N * (N - 1) // 2)
+print(*[1 * 2 ** (n - 1) for n in range(1, N + 1)])
+print(N - 1)
+print(*[1 + (n - 1) * 1 for n in range(1, N + 1)])
